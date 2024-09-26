@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline from links */
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em; /* Smaller heading on mobile */
+    }
+    .button {
+        padding: 10px 20px; /* Smaller padding on mobile */
+    }
+}
